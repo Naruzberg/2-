@@ -1,0 +1,74 @@
+@media (min-width: 1920px) {
+    .my-component {
+      // Стили для экрана 1920px
+    }
+  }
+  
+  // Стили для экрана 425px
+  @media (max-width: 425px) {
+    .my-component {
+      // Стили для экрана 425px
+    }
+  }
+  
+  // Общие стили
+  .my-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  
+    .shoes-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  
+      button {
+        background-color: #ccc;
+        border: none;
+        padding: 10px 20px;
+        margin: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    }
+  
+    .category,
+    .delivery-options,
+    .brands,
+    .prices {
+      width: 100%;
+      margin-top: 20px;
+    }
+  
+    .radio-option {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+  
+      input[type="radio"] {
+        margin-right: 5px;
+      }
+    }
+  
+    .brand-logo {
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+  
+      img {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+      }
+    }
+  
+    .price-inputs {
+      display: flex;
+      justify-content: space-between;
+  
+      input {
+        width: 48%;
+      }
+    }
+  }
